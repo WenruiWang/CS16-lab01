@@ -17,9 +17,10 @@ int main()
 		}  sum=4*sum;
             cout<<setprecision(4); 
       if((n+1)>=2){
-       	      cout<<"The approximate value of pi using "<< n+1 <<" terms is: "
+        cout<<"The approximate value of pi using "<< n+1 <<" terms is: "
 		      <<sum<<endl;}
-	      else if((n+1)<2) {     cout<<"The approximate value of pi using "<<n+1<<" term is: "  <<sum<<endl;}
+   else if((n+1)<2)
+   {cout<<"The approximate value of pi using "<<n+1<<" term is: "  <<"4.000"<<endl;}
 	cout<<"Enter the value of the parameter 'n' in the Leibniz formula (or -1 to quit):\n";
 	cin>>n;	
 	} return 0;
